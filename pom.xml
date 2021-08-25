@@ -65,7 +65,9 @@
     </distributionManagement>
 
     <properties>
-
+        
+        <sonar.organization>sp-maintenance-course</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <shiro.previousVersion>1.7.1</shiro.previousVersion>
         <!-- Replaced by the build number plugin at build time: -->
         <buildNumber>${user.name}-${maven.build.timestamp}</buildNumber>
